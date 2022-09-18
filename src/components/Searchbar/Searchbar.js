@@ -1,12 +1,6 @@
-// import { Component } from "react/cjs/react.production.min";
 import { FaSearch } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useState } from "react";
-
-// class Searchbar extends Component {
-//   state = {
-//     searchValue: "",
-//   };
 
 const Searchbar = ({ formSubmit }) => {
   const [searchValue, setSearchValue] = useState("");
